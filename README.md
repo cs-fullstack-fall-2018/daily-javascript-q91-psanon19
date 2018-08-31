@@ -28,13 +28,14 @@ setInterval(function() {
      document.getElementById("result").innerHTML = d;
 }, 10000);
 ```
-Option 3:
+***Option 3:***
 ```javascript
 setInterval(function() {
      let d = new Date();
      document.getElementById("result").innerHTML = d;
 }, 1000);
 ```
+
 Option 4:
 ```javascript
 function printDate() {
@@ -45,3 +46,4 @@ function printDate() {
 }
 printDate();
 ```
+***the correct answer is NUMBER 3***
